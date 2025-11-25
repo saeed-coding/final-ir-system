@@ -1,7 +1,9 @@
 ------ Information Retrieval System (IR System) ------
 
 Overview
-This project implements an Information Retrieval (IR) system using various search methods: Boolean Search, TF-IDF, BM25, and Hybrid Search. It processes a collection of documents, builds indices (Inverted Index, TF-IDF, and BM25), and allows users to query the documents through a search interface.
+This project implements an Information Retrieval (IR) system using various search methods: Boolean Search,
+TF-IDF, BM25, and Hybrid Search. It processes a collection of documents, builds indices (Inverted Index,
+TF-IDF, and BM25), and allows users to query the documents through a search interface.
 
 Key Features
     - Preprocessing:Tokenization, stemming, stopword removal.

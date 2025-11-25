@@ -1,0 +1,154 @@
+{
+  "evaluation_results": {
+    "map": 0.8220802549904552,
+    "mrr": 0.7888167388167387,
+    "precision_recall": {
+      "5": {
+        "precision": 0.6133333333333332,
+        "recall": 0.7733333333333333,
+        "f1": 0.6733333333333333
+      },
+      "10": {
+        "precision": 0.37333333333333324,
+        "recall": 0.9333333333333333,
+        "f1": 0.5264957264957265
+      },
+      "15": {
+        "precision": 0.24888888888888897,
+        "recall": 0.9333333333333333,
+        "f1": 0.3888888888888888
+      },
+      "20": {
+        "precision": 0.18666666666666662,
+        "recall": 0.9333333333333333,
+        "f1": 0.3084057971014493
+      }
+    },
+    "ndcg": {
+      "5": 0.7547786392968512,
+      "10": 0.8512253190370083,
+      "15": 0.8512253190370083,
+      "20": 0.8512253190370083
+    }
+  },
+  "method_comparison": {
+    "boolean": {
+      "precision": 0.3142857142857143,
+      "recall": 0.3333333333333333,
+      "f1": 0.3235294117647059
+    },
+    "tfidf": {
+      "precision": 0.3399999999999999,
+      "recall": 0.8666666666666667,
+      "f1": 0.4883977900552485
+    },
+    "bm25": {
+      "precision": 0.37333333333333324,
+      "recall": 0.9333333333333333,
+      "f1": 0.5333333333333332
+    },
+    "hybrid": {
+      "precision": 0.37333333333333324,
+      "recall": 0.9333333333333333,
+      "f1": 0.5333333333333332
+    }
+  },
+  "test_queries_used": {
+    "Pakistan stocks end record hig": [
+      826,
+      837,
+      871,
+      893,
+      905
+    ],
+    "Pakistan Jewellary exports up 29 FY16": [
+      828,
+      839,
+      873,
+      895,
+      907
+    ],
+    "Tokyo stocks open lower after BoJ under": [
+      829,
+      840,
+      874,
+      896,
+      908
+    ],
+    "Coup costsTurkey economy 100 billion minister": [
+      831,
+      842,
+      876,
+      898,
+      910
+    ],
+    "Pakistan IMF successfully complete last review Ishaq Dar": [
+      833,
+      844,
+      878,
+      900,
+      912
+    ],
+    "Fast beauty Korean cosmetics shine China draw investor": [
+      834,
+      845,
+      879,
+      901,
+      913
+    ],
+    "IMF release final instalment 66 bn loan Paki": [
+      835,
+      846,
+      880,
+      902,
+      914
+    ],
+    "oil prices up in asian trad": [
+      161,
+      261,
+      282,
+      383
+    ],
+    "Oil rises on fresh calls for production freez": [
+      849,
+      883,
+      917
+    ],
+    "Flight bookings Britain rise Brexit weakens pound": [
+      850,
+      884,
+      918
+    ],
+    "Summer season brings boost business PTDC M": [
+      851,
+      885,
+      919
+    ],
+    "Tokyo stocks track Wall Street rally at": [
+      852,
+      886,
+      920
+    ],
+    "Iran auction property death row ty": [
+      853,
+      887,
+      921
+    ],
+    "Tokyo stocks down at": [
+      855,
+      889,
+      923
+    ],
+    "Arianna Huffington leave Huffington P": [
+      856,
+      890,
+      924
+    ]
+  },
+  "evaluation_settings": {
+    "total_documents": 2692,
+    "total_queries": 15,
+    "evaluation_time_seconds": 48.87973117828369,
+    "average_relevant_docs_per_query": 4.0
+  }
+}

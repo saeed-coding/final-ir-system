@@ -13,14 +13,6 @@ Key Features
     - Indexing: Builds Inverted Index, TF-IDF Index, and BM25 Index for efficient document retrieval.
     - Evaluation: Supports precision, recall, F1-score, MAP, MRR, and NDCG evaluations for query results.
 Setup
-    - Create Virtual Environment:
-        In your terminal, navigate to the project directory.
-            Create a virtual environment:
-            python -m venv venv
-            Activate the virtual environment:
-            Windows: .\venv\Scripts\activate
-            macOS/Linux: source venv/bin/activate
-
     - Install Dependencies:
         Run the following command to install required libraries:
             pip install -r requirements.txt
